@@ -1,0 +1,16 @@
+.items{
+background: red;   
+width: 400px;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.item{
+    background-color: green;
+
+    width: 20%;
+}
+.clrfix{
+    clear: left;
+}

@@ -1,0 +1,713 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* ================= Header ================= */
+body header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header .container {
+    width: calc(100% - 240px);
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Logo {
+    height: 50px;
+    width: 114px;
+  
+}
+
+header nav {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.profile_img {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+}
+
+/* ================= Items Section ================= */
+.items .container {
+    width: calc(100% - 240px);
+    margin: auto;
+    background: rgba(157, 204, 255, 0.2);
+}
+
+.items .header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.header h3 {
+    margin-left: 10px;
+}
+
+.header a {
+    margin-right: 20px;
+    font-weight: 700;
+    color: #49BBBD;
+}
+
+.items .row {
+    display: flex;
+    gap: 50px;
+}
+
+.items .item {
+    width: calc((100% - 100px) / 3);
+    background-color: white;
+    margin-bottom: 155px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.inner_container {
+    width: calc(100% - 65px);
+    margin: auto;
+}
+
+.inner_container .rec {
+    width: calc(100% - 42px);
+    margin: 20px 21px 12px 21px;
+}
+
+.item h3 {
+    margin-left: 20px;
+}
+
+.instructor {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.instructor img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-top: 10px;
+    flex-shrink: 0;
+}
+.items h2 {
+   padding-left: 18px;
+}
+
+/* ================= Progress & Lessons ================= */
+.progress {
+    width: calc(100% - 50px);
+    height: 6px;
+    margin: auto;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    width: 70%;
+    height: 100%;
+    background-color: #49BBBD;
+    border-radius: 10px;
+}
+
+.lesson {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================= third Section ================= */
+.categories .head h2 {
+    margin: 82px 0px 53px 120px;
+}
+.categories .container{
+    width: calc(100% - 240px);
+    margin: auto;
+}
+.categories .category{
+    width: calc((100% - 264px) / 4 );
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgba(47, 50, 125, 0.08);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+}
+.categories .row{
+
+    gap: 88px; ;
+}
+.category .small_box{
+    height: 90px;
+    width: 99px;
+    border-radius: 4px;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.category .small_box img{
+    width: 32px;
+    
+}
+.category h3{
+    margin: 20px 0px 25px 0px ;
+}
+.category p{
+    text-align: center;
+}
+.box_color1{
+    background: #49BBBD4D;
+}
+.box_color2{
+    background:#5B72EE4D;
+}
+.box_color3{
+    background: #9DCCFF4D;
+}
+.box_color4{
+    background: #00CBB84D;
+}
+.box_color5{
+    background: #F48C064D;
+}
+.box_color6{
+    background:#EE645B4D;
+}
+.box_color7{
+    background:#2526414D;
+}
+.box_color8{
+    background:#00CBB84D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================= fourth Section ================= */
+.recommendations .head{
+    padding-top:100px ;
+    padding-left :20px;
+    padding-right:20px;
+    margin-top:50px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.recommendations a{
+    color: #49BBBD;
+    font-size: 20px;
+    font-weight: 700;
+}
+.recommendations .container {
+  width: calc(100% - 240px);
+  margin: auto;
+  background-color: rgba(157, 204, 255, 0.2);
+
+  
+}
+.recommendations .head h2{
+    color:black ;
+
+}
+.recommendations .inner_container{
+    width: calc(100% - 82px);
+}
+.recommendation{
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 45px;
+    background-color: #ffffff;
+    width: calc((100% - 150px) / 4 );
+    margin-bottom: 200px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+   flex-wrap: wrap;
+
+
+}
+.info img{
+    height: 18px;
+    width: auto;
+}
+.info h2{
+    margin: 20px 0px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.lower_card_info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 17px 0px 20px 0px;
+   
+   
+}
+.lower_card_info img{
+    width: 20px;
+}
+.discount{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.lower_card_info .profile{
+    display: flex;
+    gap: 17px;
+}
+.lower_card_info p{
+    text-decoration: line-through;
+    font-size: 18px;
+    font-weight: 300;
+    color: #00000080;
+
+}
+.lower_card_info h3{
+    color:#49BBBD;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* ================= fifth Section ================= */
+.choices .container{
+    margin: auto;
+    width: calc(100% - 240px);
+}
+.choices .head{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 95px;
+    margin-bottom: 50px;
+   
+}
+.choice{
+     width: calc((100% - 162px) / 4 );
+     background: white;
+     padding: 10px;
+border-radius: 10px;
+margin-bottom: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================= footer================= */
+footer {
+    background: #252641;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    padding: 20px 0;   
+    flex-direction: column;  
+}
+
+footer img {
+    margin-top:74px ;
+    width: 400px;
+    max-width: 100%;        
+    height: auto;
+}
+footer h3{
+    margin-top:95px ;
+    margin-bottom: 20px;
+}
+footer button{
+    background-color: #49BBBD;
+    border-radius: 20px;
+    padding: 13px 25px;
+}
+footer input{
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 13px 25px;
+}
+.subscription form {
+    display: flex;
+    gap: 20px;
+    align-items: center; 
+    margin-bottom: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================= Media query section ================= */
+
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    body header {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    header .container {
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header nav {
+        gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Logo {
+        width: 90px;
+        height: auto;
+    }
+
+    .profile {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .profile_img {
+        width: 36px;
+        height: 36px;
+    }
+
+    footer {
+        padding: 30px 15px; 
+        text-align: center;
+    }
+
+    footer img {
+        width: 250px;
+        max-width: 90%;
+    }
+
+    footer h3 {
+        margin-top: 30px; 
+        margin-bottom: 15px;
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .subscription form {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 35px; 
+    }
+
+    footer input,
+    footer button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .items .container {
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+
+    .items .header {
+        padding-top: 25px;
+        align-items: center;
+    }
+
+    .header h3 {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .header a {
+        margin-right: 0;
+        font-size: 14px;
+    }
+
+    .items .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .items .item {
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 20px; 
+    }
+
+    .inner_container {
+        width: 100%;
+        padding: 0 12px;
+        box-sizing: border-box;
+    }
+
+    .inner_container .rec {
+        width: 100%;
+        margin: 12px 0;
+        height: auto;
+    }
+
+    .item h3 {
+        margin-left: 10px;
+        font-size: 16px;
+    }
+
+    .instructor {
+        padding-bottom: 15px;
+    }
+
+    .instructor img {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    .items h2 {
+        padding-left: 0;
+        font-size: 19px;
+    }
+
+    .progress {
+        width: calc(100% - 24px); 
+        margin-top: 14px;
+        height: 5px;            
+    }
+
+    .lesson {
+        margin-right: 12px;      
+        margin-top: 8px;
+        margin-bottom: 10px;
+        font-size: 14px;      
+    }
+
+    .categories .head h2 {
+        margin: 35px 0 20px 0;
+        text-align: center;
+        font-size: 21px;
+    }
+
+    .categories .container {
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+
+    .categories .row {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .categories .category {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px 16px;
+    }
+
+    .category .small_box {
+        width: 75px;
+        height: 75px;
+    }
+
+    .category .small_box img {
+        width: 28px;
+    }
+
+    .category h3 {
+        margin: 14px 0 10px 0;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .category p {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .recommendations .container {
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+
+    .recommendations .head {
+        padding-top: 30px; 
+        margin-top: 20px;  
+        padding-left: 0;
+        padding-right: 0;
+        gap: 12px;
+    }
+
+    .recommendations .head h2 {
+        font-size: 21px;
+    }
+
+    .recommendations a {
+        font-size: 16px; 
+    }
+
+    .recommendations .inner_container {
+        width: 100%;
+    }
+
+    .recommendation {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 25px; 
+        box-sizing: border-box;
+    }
+
+    .info {
+        margin-top: 12px;
+    }
+
+    .info h2 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .lower_card_info {
+        margin: 12px 0 10px 0;
+        align-items: center;
+    }
+
+    .lower_card_info .profile {
+        gap: 8px;
+    }
+
+    .lower_card_info p {
+        font-size: 15px;
+    }
+
+    .lower_card_info h3 {
+        font-size: 18px;
+    }
+
+    .choices .container {
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+
+    .choices .head {
+        margin-top: 35px;    
+        margin-bottom: 20px; 
+        gap: 12px;
+    }
+
+    .choice {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+}
